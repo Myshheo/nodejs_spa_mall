@@ -16,8 +16,7 @@ app.use("/api", [goodsRouter, cartsRouter]);
 
 
 //localhost의 3000포트에서 get 발생 시 res로 "hello, World!"를 출력함.
-app.get('/', (req,res) => {3. `ls -a`
--
+app.get('/', (req,res) => {
   res.send("Hello,World!");
 });
 
